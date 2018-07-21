@@ -1,6 +1,6 @@
 package com.mbikwik.Authentication.services;
 
-import com.mbikwik.Authentication.DatabaseConnection.InstituteDatabaseConnection;
+import com.mbikwik.Authentication.dao.DatabaseConnection;
 import com.mbikwik.Authentication.Utility.UserData;
 import com.mbikwik.Authentication.model.InstituteDetails;
 
@@ -24,7 +24,7 @@ public void saveInstituteDetails(InstituteDetails instituteDetails) throws SQLEx
     ArrayList<String> location=null;
     String name=null,id=null;
 
-    Statement stmt=InstituteDatabaseConnection.getStatement();
+    Statement stmt=DatabaseConnection.getStatement();
     ResultSet rs=stmt.executeQuery("select college,location from Detail");
     if(rs.next())
     {
@@ -34,12 +34,14 @@ public void saveInstituteDetails(InstituteDetails instituteDetails) throws SQLEx
             location.add(rs.getString("location"));
         }
     }
+    instituteDetails.setInstitute_name(instituteName);
+    instituteDetails.setRegion(location);
 
 }
 
  public String saveStudentDetails(String name, String id, boolean status) throws SQLException, ClassNotFoundException {
 
-     Statement statement=InstituteDatabaseConnection.getStatement();
+     Statement statement=DatabaseConnection.getStatement();
      if(status==false)
          return "Payment not successfull";
      statement.executeUpdate("UPDATE TABLE Detail set paid = '"+true+"' WHERE NAME = '"+name+"' AND ID = '"+id+ "''");
@@ -48,7 +50,7 @@ public void saveInstituteDetails(InstituteDetails instituteDetails) throws SQLEx
 
 
  public String pay(UserData userData) throws SQLException, ClassNotFoundException {
-     Statement statement=InstituteDatabaseConnection.getStatement();
+     Statement statement=DatabaseConnection.getStatement();
      ResultSet resultSet=statement.executeQuery("select paid from table WHERE NAME = '"+userData.getName()+"id = '"+userData.getRollNumber()+"'");
      if(!resultSet.next())
          return "Invalid details";

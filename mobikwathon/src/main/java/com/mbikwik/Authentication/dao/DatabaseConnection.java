@@ -1,11 +1,11 @@
-package com.mbikwik.Authentication.DatabaseConnection;
+package com.mbikwik.Authentication.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class InstituteDatabaseConnection{
+public class DatabaseConnection {
 
 public static Statement getStatement() throws ClassNotFoundException, SQLException {
     Class.forName("com.mysql.jdbc.Driver");
