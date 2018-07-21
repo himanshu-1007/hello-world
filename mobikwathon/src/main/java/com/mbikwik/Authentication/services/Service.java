@@ -34,6 +34,8 @@ public void saveInstituteDetails(InstituteDetails instituteDetails) throws SQLEx
             location.add(rs.getString("location"));
         }
     }
+    instituteDetails.setInstitute_name(instituteName);
+    instituteDetails.setRegion(location);
 
 }
 
