@@ -25,8 +25,13 @@
       <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mbikwik/Authentication/controller/AuthController.java">
           <provider selected="true" editor-type-id="text-editor">
+
             <state relative-caret-position="179">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
+
+            <state relative-caret-position="107">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,6 +41,7 @@
       </file>
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/webapp/WEB-INF/web.xml">
+
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -48,15 +54,28 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4122">
               <caret line="229" column="45" selection-start-line="229" selection-start-column="45" selection-end-line="229" selection-end-column="45" />
+
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+
             </state>
           </provider>
         </entry>
       </file>
+
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="810">
               <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+
+      <file leaf-file-name="mobik.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/webapp/views/js/mobik.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4122">
+              <caret line="229" column="45" selection-start-line="229" selection-start-column="45" selection-end-line="229" selection-end-column="45" />
+
             </state>
           </provider>
         </entry>
@@ -168,11 +187,13 @@
             <path>
               <item name="mobikwathon" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobikwathon" type="462c0819:PsiDirectoryNode" />
+
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mobikwathon" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobikwathon" type="462c0819:PsiDirectoryNode" />
+
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,11 +337,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
+
+    <option name="totallyTimeSpent" value="34000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+
+
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -641,7 +670,12 @@
         <state relative-caret-position="-41" />
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/src/main/resources/webapp/WEB-INF/mobikwathon-servlet.xml">
+
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webapp/WEB-INF/mobikwathon-servlet.xml~HEAD">
+
+
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/webapp/views/js/mobik.js">
@@ -682,8 +716,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mbikwik/Authentication/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="179">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
+
+        <state relative-caret-position="107">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+
+
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -754,8 +794,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
+
+
         <state relative-caret-position="810">
           <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="148" column="87" lean-forward="true" selection-start-line="148" selection-start-column="87" selection-end-line="148" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webapp/views/js/mobik.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4122">
+          <caret line="229" column="45" selection-start-line="229" selection-start-column="45" selection-end-line="229" selection-end-column="45" />
+
         </state>
       </provider>
     </entry>
