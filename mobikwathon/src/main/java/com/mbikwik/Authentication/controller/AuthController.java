@@ -1,7 +1,6 @@
 package com.mbikwik.Authentication.controller;
 
 import com.mbikwik.Authentication.model.InstituteDetails;
-import com.mbikwik.Authentication.model.StudentDetail;
 import com.mbikwik.Authentication.services.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,13 +22,16 @@ public ModelAndView details() throws SQLException, ClassNotFoundException {
    return new ModelAndView("details","command",instituteDetails);
 }
 
-@RequestMapping(value = "payDetails")
-public ModelAndView studentDetails()
-{
-    return new ModelAndView("studentDetail","command",new StudentDetail());
-}
 
+    @Autowired
+    Service services;
 
+    @RequestMapping(value = "/payStatus")
+    public String Payment(@RequestParam("Id") String id, @RequestParam("name") String name, @RequestParam("success") boolean success) throws SQLException, ClassNotFoundException {
+        {
+            return services.saveStudentDetails(name, id, success);
+        }
+    }
 
 
 
