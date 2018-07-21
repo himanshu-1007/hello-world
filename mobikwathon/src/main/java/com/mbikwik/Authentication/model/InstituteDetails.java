@@ -6,6 +6,25 @@ public class InstituteDetails {
 
     ArrayList<String> region=new ArrayList<String>();
     ArrayList<String> institute_name=new ArrayList<String>();
+    String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getId() {
+        return Id;
+    }
+
+    public void setId(String id) {
+        Id = id;
+    }
+
+    String Id;
 
     public ArrayList<String> getRegion() {
         return region;
