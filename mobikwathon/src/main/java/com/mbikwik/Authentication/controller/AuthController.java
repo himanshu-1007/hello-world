@@ -24,7 +24,7 @@ public ModelAndView details()
 @RequestMapping(value = "payDetails")
 public ModelAndView studentDetails()
 {
-        return null;
+
 }
 
 }
