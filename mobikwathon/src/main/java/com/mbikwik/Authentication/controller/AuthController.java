@@ -35,10 +35,9 @@ public ModelAndView details() throws SQLException, ClassNotFoundException {
 
 
 @RequestMapping(value = "/pay")
-    New_Response evaluate(@RequestBody UserData userData){
+    String evaluate(@RequestBody UserData userData) throws SQLException, ClassNotFoundException {
 
-
-    return null;
+    return service.pay(userData);
 
 }
 

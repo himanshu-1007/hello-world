@@ -15,5 +15,4 @@ public static Statement getStatement() throws ClassNotFoundException, SQLExcepti
     return  st;
 }
 
-
 }
