@@ -2,11 +2,11 @@ package com.mbikwik.Authentication.controller;
 
 import com.mbikwik.Authentication.model.InstituteDetails;
 import com.mbikwik.Authentication.services.Service;
+import com.sun.tools.internal.ws.processor.model.Response;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
+import com.mbikwik.Authentication.Utility.*;
 
 public class AuthController {
 
@@ -22,9 +22,20 @@ public ModelAndView details()
 }
 
 @RequestMapping(value = "payDetails")
-public ModelAndView studentDetails()
-{
+    New_Response evaluate(@RequestBody UserData userData){
+
+    return null;
 
 }
 
+
+
+
+
+
 }
+
+
+
+
+
